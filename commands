@@ -1,0 +1,21 @@
+Docker commands
+  1.Install a new image
+      Docker run -it image-name
+  2.Start a new container
+      Docker start image-name
+  3.Stop a container
+      Docker stop image-name
+4.Run docker within the terminal
+      Docker exec -it image-name bash 
+5.List all active containers
+      Docker container ls
+6.List all containers
+      Docker container ls -a
+7.Find all images
+      Docker images
+8.Exit the terminal
+    ctrl + D
+9.Build a docker
+    Docker build -t name
+10.create your own netwrok
+    Docker network create -d bridge name
